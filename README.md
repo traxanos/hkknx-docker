@@ -11,3 +11,8 @@ docker run -d \
   -v /var/lib/hkknx:/data \
   -d hkknx:latest
 ```
+
+## Build
+```
+docker build ~/path/to/hkknx-template/ --build-arg HKKNX_VERSION=1.0.1 -t -t hkknx:latest
+```
