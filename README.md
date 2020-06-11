@@ -8,7 +8,7 @@ docker run -d \
   --restart=always \
   --network host \
   -e HKKNX_PORT=8180 \
-  -v /var/lib/hkknx:/data \
+  -v /path/to/dbonhost:/data \
   -d hkknx:latest
 ```
 
