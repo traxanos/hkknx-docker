@@ -14,5 +14,5 @@ docker run -d \
 
 ## Build
 ```
-docker build ~/path/to/hkknx-template/ --build-arg HKKNX_VERSION=1.0.1 -t -t hkknx:latest
+docker build ~/path/to/hkknx-template/ --build-arg HKKNX_VERSION=1.0.1 -t hkknx:latest
 ```
